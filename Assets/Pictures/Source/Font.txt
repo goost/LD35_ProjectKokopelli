@@ -1,0 +1,18 @@
+Fonttype: Pusab
+
+Score List/Press enter to start:
+size: 60pt
+color: #FF9900
+outline color: #FF6600
+
+Time
+size: 44pt
+color: 663399
+
+Score (word)
+size: 24pt
+color: 663399
+
+Score numbers
+size: 44pt
+color: 663399
