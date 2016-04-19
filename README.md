@@ -5,7 +5,7 @@ Theme: ShapeShift!
 
 Whack-a-mole style game called DangoSmash ('cause they are dangos, not moles!) with a twist.  
 Made in 48 hours, as work calls on monday.  
-Play it online [here!](pgunited.com/unity/DangoSmash/)
+Play it online [here!](http://pgunited.com/unity/DangoSmash/)
 
 ### Controls
 Left Click to swing down the left hammer and hit squared dangos to score.  
