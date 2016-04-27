@@ -22,27 +22,10 @@ public class Score : MonoBehaviour
 
   public void IncrementScore(int toAdd)
   {
+    // NOTE (goost) Padding Zeroes
+    // https://msdn.microsoft.com/en-us/library/dd260048(v=vs.110).aspx
     _currentScore += toAdd;
-    if (_currentScore < 0)
-    {
-      _text.text = "" + _currentScore;
-    }
-    else if (_currentScore < 10)
-    {
-      _text.text = "000" + _currentScore;
-    }
-    else if (_currentScore < 100)
-    {
-      _text.text = "00" + _currentScore;
-    }
-    else if (_currentScore < 1000)
-    {
-      _text.text = "0" + _currentScore;
-    }
-    else
-    {
-      _text.text = "" + _currentScore;
-    }
+   _text.text = _currentScore.ToString("D4");
   }
 
   public void Reset()
